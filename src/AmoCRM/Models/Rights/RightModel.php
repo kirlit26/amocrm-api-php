@@ -493,11 +493,11 @@ class RightModel extends BaseApiModel
             ->setContactsRights($rights['contacts'])
             ->setCompaniesRights($rights['companies'])
             ->setTasksRights($rights['tasks'])
-            ->setIsAdmin($rights['is_admin'])
+            /*->setIsAdmin($rights['is_admin'])
             ->setIsFree($rights['is_free'])
             ->setIsActive($rights['is_active'])
             ->setRoleId($rights['role_id'])
-            ->setGroupId($rights['group_id']);
+            ->setGroupId($rights['group_id'])*/;
 
         if (!empty($rights['status_rights'])) {
             $model->setStatusRights($rights['status_rights']);
